@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "graphql-core"
+name = "graphql-corex"
 version = "3.2.3"
 description = """
 GraphQL-core is a Python port of GraphQL.js,\
@@ -25,21 +25,7 @@ classifiers = [
     "Programming Language :: Python :: 3.10"
 ]
 packages = [
-    { include = "graphql", from = "src" },
-    { include = "tests", format = "sdist" },
-    { include = "docs", format = "sdist" },
-    { include = '.bumpversion.cfg', format = "sdist" },
-    { include = '.coveragerc', format = "sdist" },
-    { include = '.editorconfig', format = "sdist" },
-    { include = '.flake8', format = "sdist" },
-    { include = '.mypy.ini', format = "sdist" },
-    { include = '.readthedocs.yaml', format = "sdist" },
-    { include = 'poetry.lock', format = "sdist" },
-    { include = 'tox.ini', format = "sdist" },
-    { include = 'setup.cfg', format = "sdist" },
-    { include = 'CODEOWNERS', format = "sdist" },
-    { include = 'MANIFEST.in', format = "sdist" },
-    { include = 'SECURITY.md', format = "sdist" }
+    { include = "graphqlx", from = "src" },
 ]
 
 [tool.poetry.dependencies]
